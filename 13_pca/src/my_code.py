@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
-inputfile='C:\\Users\\simon\\OneDrive\\Työpöytä\\koulu\\netti\\assignments\\13_pca\\src\\in.npy'
-outputfile='C:\\Users\\simon\\OneDrive\\Työpöytä\\koulu\\netti\\assignments\\13_pca\\src\\out.npy'
+inputfile='in.npy'
+outputfile='out.npy'
 
 data=np.load(inputfile)
 # Teach  
